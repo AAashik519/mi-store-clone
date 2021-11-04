@@ -1,0 +1,43 @@
+ /* .hotAcceroies{
+    display: flex;
+    width: 90vw;
+    margin:auto;
+   
+
+}
+
+.hotAcceroies div:first-child>img{
+    width: 22vw;
+    cursor: pointer;
+}
+.hotAcceroies div:first-child:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+.hotAcceroies div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.hotAcceroies{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.hotAcceroies > div:first-child > img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 22vw;
+  }
+
+  .hotAcceroies > div:first-child > img:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+
+}
+
+.hotAcceroies > div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

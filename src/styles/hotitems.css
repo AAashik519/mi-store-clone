@@ -1,0 +1,23 @@
+.hotItemCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 31%;
+    margin-left: 15px;
+    
+    
+}
+.hotItemCard img{
+    width: 70%;
+}
+.hotItemCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 5px 5px 15px   rgba(87, 86, 86, 0.153);
+}
+.hotItemCard h6{
+color: orangered;
+font-size: 20px;
+ padding: 7px 0;
+}

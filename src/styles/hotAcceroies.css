@@ -1,0 +1,19 @@
+.hotAcceroiesMenu{
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.hotAcceroiesLink{
+    text-decoration: none;
+    color: rgb(94,94,94);
+    padding:  0.5vmax  0;
+    margin: 1vmaX;
+     
+
+}
+.hotAcceroiesLink:hover{
+    border-bottom: orangered 1px solid;
+    color: orangered;
+    transition: all .2s ease-in-out;
+}

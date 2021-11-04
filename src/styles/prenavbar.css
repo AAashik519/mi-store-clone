@@ -1,0 +1,31 @@
+.preNav{
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+.preNav >div{
+    padding: 0.5vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.preNav >div a{
+    padding:0 10px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 13px;
+    font-weight:300 ;
+    font-family: 'Lato', sans-serif;
+    text-transform:uppercase;
+
+}
+.preNav >div a span{
+    padding-right: 2px;
+    color: #ddd;
+    font-size: 13px;
+    color: #fff;
+}
+.preNav >div a:hover{
+    color :#fff;
+   
+}
